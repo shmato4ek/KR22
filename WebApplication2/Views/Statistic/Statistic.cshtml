@@ -1,0 +1,260 @@
+﻿@{
+    ViewData["Title"] = "Бджолиний алгоритм";
+}
+    <div class="text-center" >
+        <h1 class="header">Статистика</h1>
+            <h4 class="header1">Залежність результату від кількості випробувань</h4>
+            <h4 class="header2">Залежність результату від розміру карти</h4>
+            <div id="chart1Container" class="chart1-container"></div>
+            <div id="chart2Container" class="chart2-container"></div>
+            <div class="table1-container">
+                <h4 class="header-table">100 випробувань на карті розміром 20х20</h4>
+                <p></p>
+                <table>
+                    <tr>
+                        <th>Бджолиний</th>
+                        <th>Жадний</th>
+                        <th>Часткового перебору</th>
+                    </tr>
+                    @for(int i = 0; i < 20; i++)
+                    {
+                        <tr>
+                            <td>
+                                @ViewBag.Bee20100[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Greedy20100[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Enumeration20100[i].Result
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            @ViewBag.BeeAverage20100
+                        </td>
+                        <td>
+                            @ViewBag.GreedyAverage20100
+                        </td>
+                        <td>
+                            @ViewBag.EnumerationAverage20100
+                        </td>
+                    </tr>
+                </table>
+            </div>            
+            <div class="table-container">
+                <h4 class="header-table">500 випробувань на карті розміром 20х20</h4>
+                <p></p>
+                <table>
+                    <tr>
+                        <th>Бджолиний</th>
+                        <th>Жадний</th>
+                        <th>Часткового перебору</th>
+                    </tr>
+                    @for(int i = 0; i < 20; i++)
+                    {
+                        <tr>
+                            <td>
+                                @ViewBag.Bee20500[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Greedy20500[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Enumeration20500[i].Result
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            @ViewBag.BeeAverage20500
+                        </td>
+                        <td>
+                            @ViewBag.GreedyAverage20500
+                        </td>
+                        <td>
+                            @ViewBag.EnumerationAverage20500
+                        </td>
+                    </tr>
+                </table>
+            </div>            
+            <div class="table-container">
+                <h4 class="header-table">1000 випробувань на карті розміром 20х20</h4>
+                <p></p>
+                <table>
+                    <tr>
+                        <th>Бджолиний</th>
+                        <th>Жадний</th>
+                        <th>Часткового перебору</th>
+                    </tr>
+                    @for(int i = 0; i < 20; i++)
+                    {
+                        <tr>
+                            <td>
+                                @ViewBag.Bee201000[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Greedy201000[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Enumeration201000[i].Result
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            @ViewBag.BeeAverage201000
+                        </td>
+                        <td>
+                            @ViewBag.GreedyAverage201000
+                        </td>
+                        <td>
+                            @ViewBag.EnumerationAverage201000
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-container">
+                <h4 class="header-table"> 100 випробувань на карті розміром 50х50</h4>
+                <p></p>
+                <table>
+                    <tr>
+                        <th>Бджолиний</th>
+                        <th>Жадний</th>
+                        <th>Часткового перебору</th>
+                    </tr>
+                    @for(int i = 0; i < 20; i++)
+                    {
+                        <tr>
+                            <td>
+                                @ViewBag.Bee50[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Greedy50[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Enumeration50[i].Result
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            @ViewBag.BeeAverage50
+                        </td>
+                        <td>
+                            @ViewBag.GreedyAverage50
+                        </td>
+                        <td>
+                            @ViewBag.EnumerationAverage50
+                        </td>
+                    </tr>
+                </table>
+            </div>                 
+            <div class="table-container">
+                <h4 class="header-table">100 випробувань на карті розміром 100х100</h4>
+                <p></p>
+                <table>
+                    <tr>
+                        <th>Бджолиний</th>
+                        <th>Жадний</th>
+                        <th>Часткового перебору</th>
+                    </tr>
+                    @for(int i = 0; i < 20; i++)
+                    {
+                        <tr>
+                            <td>
+                                @ViewBag.Bee100[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Greedy100[i].Result
+                            </td>
+                            <td>
+                                @ViewBag.Enumeration100[i].Result
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td>
+                            @ViewBag.BeeAverage100
+                        </td>
+                        <td>
+                            @ViewBag.GreedyAverage100
+                        </td>
+                        <td>
+                            @ViewBag.EnumerationAverage100
+                        </td>
+                    </tr>
+                </table>
+            </div>            
+    </div>
+
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+    var chart = new CanvasJS.Chart("chart1Container", {
+        width: 400,
+        heigth: 700,
+        theme: "light2",
+        axisX: {
+            title:"Кількость випробувань",
+            minimum: 0,
+            maximum: 1000
+        },
+        axisY:{
+            title: "Середній результат * 100",
+            minimum: 0,
+            maximum: 3000
+        },
+        data: []
+        });
+ 
+    var data = JSON.parse('@Html.Raw(ViewBag.Models1)');
+    data.forEach(function (shops) {
+        chart.options.data.push(Object.assign({}, {
+            type: shops.Type,
+            name: shops.Name,
+            markerSize: shops.MarkerSize,
+            color: shops.Color,
+            markerType: shops.MarkerType,
+            showInLegend: true,    
+            legendText: shops.LegendText,
+            dataPoints: shops.Points.map(p => Object.assign({}, {x: p.X, y: p.Y}))
+        }));
+    })
+    chart.render(); 
+</script>
+
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+    var chart = new CanvasJS.Chart("chart2Container", {
+        width: 400,
+        heigth: 700,
+        theme: "light2",
+        axisX: {
+            title:"Розмір карти",
+            minimum: 20,
+            maximum: 100
+        },
+        axisY:{
+            title: "Середній результат * 100",
+            minimum: 0,
+            maximum: 5000
+        },
+        data: []
+        });
+ 
+    var data = JSON.parse('@Html.Raw(ViewBag.Models2)');
+    data.forEach(function (shops) {
+        chart.options.data.push(Object.assign({}, {
+            type: shops.Type,
+            name: shops.Name,
+            markerSize: shops.MarkerSize,
+            color: shops.Color,
+            showInLegend: true,    
+            legendText: shops.LegendText,
+            markerType: shops.MarkerType,
+            dataPoints: shops.Points.map(p => Object.assign({}, {x: p.X, y: p.Y}))
+        }));
+    })
+    chart.render(); 
+</script>

@@ -1,0 +1,65 @@
+﻿.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5%;
+}
+
+.description {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.description-text {
+    width: 45%;
+    font-size: 20px;
+}
+
+.stat-text {
+    width: 45%;
+    font-size: 20px;
+}
+
+.description-example {
+    padding-left: 8rem;
+    width: 50%;
+}
+
+.img-description {
+   padding-left: 40%;
+}
+
+.img-stat {
+   width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+p, h1, h2 {
+    font-family: Arial;
+}
+
+.example {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.stat {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.example-text {
+    width: 45%;
+    font-size: 20px;
+}
+
+.img-example {
+    padding-right: 8rem;
+    width: 50%;
+}

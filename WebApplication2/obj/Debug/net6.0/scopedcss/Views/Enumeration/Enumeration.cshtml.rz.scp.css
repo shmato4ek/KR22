@@ -1,0 +1,38 @@
+.header[b-5n5wu1aeyl] {
+    padding-bottom: 6rem;
+}
+
+.chart-container[b-5n5wu1aeyl] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+table[b-5n5wu1aeyl], th[b-5n5wu1aeyl], td[b-5n5wu1aeyl], tr[b-5n5wu1aeyl] {
+    border: 1px solid;
+}
+
+.table-container[b-5n5wu1aeyl] {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: absolute;
+    top: 37.5%;
+    right: 10%;
+}
+
+table[b-5n5wu1aeyl] {
+    width: 40%;
+}
+
+.text-center[b-5n5wu1aeyl] {
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.result[b-5n5wu1aeyl] {
+    width: 50%;
+    margin-left: 8rem;
+    text-align: left;
+}

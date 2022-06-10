@@ -1,0 +1,45 @@
+﻿table, th, td, tr {
+    border: 1px solid;
+}
+
+table {
+    width: 90%
+}
+
+.chart1-container {
+    top: 15rem;
+    position: absolute;
+    left: 10%;
+}
+
+.chart2-container {
+    top: 15rem;
+    position: absolute;
+    left: 60%;
+}
+
+.table-container {
+    padding-left: 8rem;
+    margin-top: 5%;
+}
+
+.table1-container {
+    padding-left: 8rem;
+    margin-top: 50%;
+}
+
+.header1 {
+    position: absolute;
+    top: 10rem;
+    left: 5%;
+}
+
+.header2 {
+    position: absolute;
+    top: 10rem;
+    left: 57%;
+}
+
+.header-table {
+    margin-left: -8rem;
+}

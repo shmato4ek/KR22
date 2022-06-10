@@ -1,0 +1,278 @@
+/* _content/WebApplication2/Views/Bee/Bee.cshtml.rz.scp.css */
+.header[b-pi3lhd5uon] {
+    padding-bottom: 6rem;
+}
+
+.chart-container[b-pi3lhd5uon] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+table[b-pi3lhd5uon], th[b-pi3lhd5uon], td[b-pi3lhd5uon], tr[b-pi3lhd5uon] {
+    border: 1px solid;
+}
+
+.table-container[b-pi3lhd5uon] {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: absolute;
+    top: 37.5%;
+    right: 10%;
+}
+
+table[b-pi3lhd5uon] {
+    width: 40%;
+}
+
+.text-center[b-pi3lhd5uon] {
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.result[b-pi3lhd5uon] {
+    width: 50%;
+    margin-left: 8rem;
+    text-align: left;
+}
+/* _content/WebApplication2/Views/Enumeration/Enumeration.cshtml.rz.scp.css */
+.header[b-5n5wu1aeyl] {
+    padding-bottom: 6rem;
+}
+
+.chart-container[b-5n5wu1aeyl] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+table[b-5n5wu1aeyl], th[b-5n5wu1aeyl], td[b-5n5wu1aeyl], tr[b-5n5wu1aeyl] {
+    border: 1px solid;
+}
+
+.table-container[b-5n5wu1aeyl] {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: absolute;
+    top: 37.5%;
+    right: 10%;
+}
+
+table[b-5n5wu1aeyl] {
+    width: 40%;
+}
+
+.text-center[b-5n5wu1aeyl] {
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.result[b-5n5wu1aeyl] {
+    width: 50%;
+    margin-left: 8rem;
+    text-align: left;
+}
+/* _content/WebApplication2/Views/Greedy/Greedy.cshtml.rz.scp.css */
+.header[b-7dcsy3hin4] {
+    padding-bottom: 6rem;
+}
+
+.chart-container[b-7dcsy3hin4] {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+table[b-7dcsy3hin4], th[b-7dcsy3hin4], td[b-7dcsy3hin4], tr[b-7dcsy3hin4] {
+    border: 1px solid;
+}
+
+.table-container[b-7dcsy3hin4] {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: absolute;
+    top: 37.5%;
+    right: 10%;
+}
+
+table[b-7dcsy3hin4] {
+    width: 40%;
+}
+
+.text-center[b-7dcsy3hin4] {
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.result[b-7dcsy3hin4] {
+    width: 50%;
+    margin-left: 8rem;
+    text-align: left;
+}
+/* _content/WebApplication2/Views/Home/Index.cshtml.rz.scp.css */
+.main-container[b-mtbovxntcd] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5%;
+}
+
+.description[b-mtbovxntcd] {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.description-text[b-mtbovxntcd] {
+    width: 45%;
+    font-size: 20px;
+}
+
+.stat-text[b-mtbovxntcd] {
+    width: 45%;
+    font-size: 20px;
+}
+
+.description-example[b-mtbovxntcd] {
+    padding-left: 8rem;
+    width: 50%;
+}
+
+.img-description[b-mtbovxntcd] {
+   padding-left: 40%;
+}
+
+.img-stat[b-mtbovxntcd] {
+   width: 50%;
+}
+
+img[b-mtbovxntcd] {
+    width: 100%;
+}
+
+p[b-mtbovxntcd], h1[b-mtbovxntcd], h2[b-mtbovxntcd] {
+    font-family: Arial;
+}
+
+.example[b-mtbovxntcd] {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.stat[b-mtbovxntcd] {
+    padding-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.example-text[b-mtbovxntcd] {
+    width: 45%;
+    font-size: 20px;
+}
+
+.img-example[b-mtbovxntcd] {
+    padding-right: 8rem;
+    width: 50%;
+}
+/* _content/WebApplication2/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-amt9qciysm] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-amt9qciysm] {
+  color: #0077cc;
+}
+
+.btn-primary[b-amt9qciysm] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-amt9qciysm], .nav-pills .show > .nav-link[b-amt9qciysm] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-amt9qciysm] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-amt9qciysm] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-amt9qciysm] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-amt9qciysm] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-amt9qciysm] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/WebApplication2/Views/Statistic/Statistic.cshtml.rz.scp.css */
+table[b-ce2ybyloxn], th[b-ce2ybyloxn], td[b-ce2ybyloxn], tr[b-ce2ybyloxn] {
+    border: 1px solid;
+}
+
+table[b-ce2ybyloxn] {
+    width: 90%
+}
+
+.chart1-container[b-ce2ybyloxn] {
+    top: 15rem;
+    position: absolute;
+    left: 10%;
+}
+
+.chart2-container[b-ce2ybyloxn] {
+    top: 15rem;
+    position: absolute;
+    left: 60%;
+}
+
+.table-container[b-ce2ybyloxn] {
+    padding-left: 8rem;
+    margin-top: 5%;
+}
+
+.table1-container[b-ce2ybyloxn] {
+    padding-left: 8rem;
+    margin-top: 50%;
+}
+
+.header1[b-ce2ybyloxn] {
+    position: absolute;
+    top: 10rem;
+    left: 5%;
+}
+
+.header2[b-ce2ybyloxn] {
+    position: absolute;
+    top: 10rem;
+    left: 57%;
+}
+
+.header-table[b-ce2ybyloxn] {
+    margin-left: -8rem;
+}

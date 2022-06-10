@@ -1,0 +1,45 @@
+table[b-ce2ybyloxn], th[b-ce2ybyloxn], td[b-ce2ybyloxn], tr[b-ce2ybyloxn] {
+    border: 1px solid;
+}
+
+table[b-ce2ybyloxn] {
+    width: 90%
+}
+
+.chart1-container[b-ce2ybyloxn] {
+    top: 15rem;
+    position: absolute;
+    left: 10%;
+}
+
+.chart2-container[b-ce2ybyloxn] {
+    top: 15rem;
+    position: absolute;
+    left: 60%;
+}
+
+.table-container[b-ce2ybyloxn] {
+    padding-left: 8rem;
+    margin-top: 5%;
+}
+
+.table1-container[b-ce2ybyloxn] {
+    padding-left: 8rem;
+    margin-top: 50%;
+}
+
+.header1[b-ce2ybyloxn] {
+    position: absolute;
+    top: 10rem;
+    left: 5%;
+}
+
+.header2[b-ce2ybyloxn] {
+    position: absolute;
+    top: 10rem;
+    left: 57%;
+}
+
+.header-table[b-ce2ybyloxn] {
+    margin-left: -8rem;
+}
